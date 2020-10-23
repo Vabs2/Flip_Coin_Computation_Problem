@@ -111,6 +111,8 @@ function tripletCombination()
 
 flip=0
 }
+function Result()
+{
 SingleCombination
 echo h t
 echo ${Combination["h"]} ${Comination["t"]}
@@ -124,3 +126,5 @@ echo HHH HHT HTH HTT THH THT TTH TTT
 echo ${Combination["hhh"]} ${Combination["hht"]} ${Combination["hth"]} ${Combination["htt"]} ${Combination["thh"]} 
 
 ${Combination["tht"]} ${Combination["tth"]} ${Combination["ttt"]}
+}
+Result
